@@ -1,4 +1,4 @@
-# Mathematical Computing & Data Structures in Python 🐍🧮
+# Algorithms & Data Structures in Python 🐍🧮
 
 A modular, well-structured library of algorithms, linear data structures, mathematical simulations, and linear algebra routines implemented in pure Python. Designed as a foundational sandbox for **Mathematics & Computing (MnC)** students and computer science enthusiasts.
 
