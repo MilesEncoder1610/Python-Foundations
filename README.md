@@ -79,7 +79,7 @@ This repository aggregates foundational Python implementations covering:
 - **Fibonacci Series**: Optimized iterative dynamic memoization reducing recursive complexity from $O(2^N)$ down to $O(N)$ time with runtime benchmarking via `time`.
 - **Pascal's Triangle**: Evaluates combinatorial rows using $nCr = \frac{n!}{r!(n-r)!}$.
 - **Base Conversions**: Modular arithmetic for converting decimal numbers into arbitrary base systems.
-- **Diophantine Equations**: Solver evaluating combinations for equations of the form $x + y + z = N$.
+- **Equations**: Solver evaluating combinations for equations of the form $x + y + z = N$.
 
 ---
 
