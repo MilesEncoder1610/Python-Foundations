@@ -1,16 +1,15 @@
 from quadratic_roots import roots
 def linear_solver(a, b):
     if a==0:
-        raise ZeroDivisionError("Bruh. This thing is too advanced for you.")
+        raise ZeroDivisionError("Bruh. This thing is too much.")
     else:
-        x=(-b)/a
-        return x
+        return (-b)/a
     
-M=str(input("""What equation would you like to solve? This program can solve:
+M=input("""What equation would you like to solve? This program can solve:
 1) Linear
 2) Quadratic
 3) Solve for x when other variables are given (x+y+z=n)
-Please type the first letter of the respective operation you would like to do:""")).lower()
+Please type the first letter of the respective operation you would like to do:""").lower()
 while True:
     
     if M=="l" or "q" or "S":
