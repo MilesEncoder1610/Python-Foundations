@@ -1,8 +1,4 @@
-def quadratic_solver(a, b, c):
-    x=((-b)+((b**2)-4*a*c)**0.5)/(2*a)
-    y=((-b)-((b**2)-4*a*c)**0.5)/(2*a)
-    return x, y
-
+from quadratic_roots import roots
 def linear_solver(a, b):
     if a==0:
         raise ZeroDivisionError("Bruh. This thing is too advanced for you.")
