@@ -25,7 +25,7 @@ elif M=="q":
     a=float(input("Enter value of a for equation in format: ax^2+bx+c=0"))
     b=float(input("Enter value of b for equation in format: ax^2+bx+c=0"))
     c=float(input("Enter value of c for equation in format: ax^2+bx+c=0"))
-    print("The solutions for x are:", quadratic_solver(a, b, c))
+    print("The solutions for x are:", roots(a, b, c))
 else:
     n=int(input("Enter the Constant For The Equation x+y+z=n:"))
     print(f"The Equation Has Become:x+y+z={n}")
