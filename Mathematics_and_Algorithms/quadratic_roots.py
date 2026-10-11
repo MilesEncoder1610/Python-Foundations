@@ -7,7 +7,7 @@ def roots(a,b,c):
         w1="The Equation Has 2 Equal & Real Roots"
     else:
         w1="The Equation Has No Real Roots"
-    print(w1)
+    #print(w1)
     W=w**(1/2)
     Root1=((W-b)/a)/2
     Root2=((-W-b)/a)/2
